@@ -22,6 +22,7 @@
 /* Style the actual snippets */
 .code code {
   display: block;
+  font-size: .5em;
 }
 
 .App-header {

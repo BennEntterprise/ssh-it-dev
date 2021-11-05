@@ -30,18 +30,15 @@ function App() {
 
         {nuggets.map((n, _) => (
           <div className="code">
-            <code>Snippet {_}: {n.snippetTitle}</code>
-            <code>{n.codeOneliner}</code>
-            <code>{n.outputHint}</code>
+            <code># Snippet {_}: {n.snippetTitle}</code>
+            <code>&gt; {n.codeOneliner}</code>
+            <code>--&gt;{n.kylesHint}</code>
           </div>
         ))}
 
         <div className="citations">
           <p>Citations</p>
           <cite>
-            <a href="https://linux.die.net/man/1/ssh">
-              https://linux.die.net/man/1/ssh{" "}
-            </a>
           </cite>
         </div>
       </header>
